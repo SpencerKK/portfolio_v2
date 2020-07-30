@@ -9,9 +9,14 @@
 
 /* left */
 
+.header-left h1 {
+    color: rgba(0, 0, 0, 0.769);
+}
+
 .header-left p {
     padding-bottom: 1vh;
     border-bottom: 2px solid red;
+    color: rgba(0, 0, 0, 0.769);
 }
 
 /* right */

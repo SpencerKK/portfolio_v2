@@ -1,36 +1,66 @@
 .skills-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-family: "Roboto";
-    margin-top: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Roboto";
+  margin-top: 2em;
 }
 
 .skill-card {
-    text-align: center;
-    margin: 1em 0.5em;
-    border: 1px solid #000;
-    border-radius: 0 20px 0 0;
+  text-align: center;
+  margin: 1em 0.5em;
+  border: 2px solid rgba(0, 0, 0, 0.769);
+  border-radius: 0 20px 0 0;
+  background-color: rgb(241, 241, 243);
 }
 
 /* Inside Card */
 
 .skill-text {
-    padding-top: 1em;
-    background: rgba(0, 0, 0, 0.865);
-    color: #fff;
-    padding: 1.2em 1em;
-    line-height: 1.5;
+  padding-top: 1em;
+  background: rgba(0, 0, 0, 0.769);
+  color: #fff;
+  padding: 1.2em 1em;
+  line-height: 1.5;
 }
 
 .skill-card i {
-    font-size: 5em;
-    margin: 0.5em;
-    color: red;
-    padding: 0.3em;
-    transition: transform .2s;
+  font-size: 5em;
+  margin: 0.5em;
+  padding: 0.3em;
+  transition: transform 0.2s;
 }
 
 .skill-card i:hover {
-    transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+/* Individual Cards */
+
+.fa-react {
+  color: #61dbfb;
+  animation: spin 4s linear infinite;
+}
+
+@keyframes spin {
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+
+.fa-js {
+    color: #f8e117;
+  }
+
+  .fa-html5 {
+    color: #ea652b;
+  }
+  
+  .fa-css3-alt {
+    color: #016db4;
+  }
+
+.fa-node-js {
+  color: #83cd29;
 }
