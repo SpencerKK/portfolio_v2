@@ -1,0 +1,42 @@
+.banner-wrapper {
+    font-family: "Recursive";
+    max-width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5em;
+}
+
+/* banner detail */
+.banner-detail span {
+    color: red;
+}
+
+.banner-detail h1 {
+    margin-bottom: 1rem;
+}
+
+.banner-detail p {
+    line-height: 1.3
+}
+
+@media (max-width: 400px) {
+    .banner-wrapper {
+        max-width: 90%;
+        margin-top: 2em;
+    }
+    
+    .banner-detail h1 {
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner-wrapper {
+        max-width: 80%;
+        margin-top: 3em;
+    }
+    
+    .banner-detail h1 {
+        margin-bottom: 0.5rem;
+    }
+}

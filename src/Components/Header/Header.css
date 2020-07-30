@@ -26,3 +26,20 @@
     transform: scale(1.5);
     color: red;
 }
+
+@media (max-width: 400px) {
+    .header-wrapper{
+        text-align: center;
+    }
+
+    .header-left p {
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        border-bottom: 1px solid red;
+    }
+
+    .fa-github {
+        display: none;
+    }
+    
+}
