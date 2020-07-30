@@ -1,0 +1,28 @@
+.header-wrapper {
+    font-family: "Recursive";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    margin: 1em auto 0 auto;
+}
+
+/* left */
+
+.header-left p {
+    padding-bottom: 1vh;
+    border-bottom: 1px solid red;
+}
+
+/* right */
+
+.fa-github {
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.fa-github:hover {
+    transform: scale(1.5);
+    color: red;
+}
