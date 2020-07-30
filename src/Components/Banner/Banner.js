@@ -8,7 +8,7 @@ const Banner = () => {
         <h1>About Me<span>.</span></h1>
         <p>
           I enjoy working creatively with modern technologies & solving problems
-          with others. Currently, I'm looking for a full time position
+          with others. Currently, I'm looking for a full time, frontend position
         </p>
       </div>
     </div>

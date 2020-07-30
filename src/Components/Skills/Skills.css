@@ -1,0 +1,36 @@
+.skills-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "Roboto";
+    margin-top: 2em;
+}
+
+.skill-card {
+    text-align: center;
+    margin: 1em 0.5em;
+    border: 1px solid #000;
+    border-radius: 0 20px 0 0;
+}
+
+/* Inside Card */
+
+.skill-text {
+    padding-top: 1em;
+    background: rgba(0, 0, 0, 0.865);
+    color: #fff;
+    padding: 1.2em 1em;
+    line-height: 1.5;
+}
+
+.skill-card i {
+    font-size: 5em;
+    margin: 0.5em;
+    color: red;
+    padding: 0.3em;
+    transition: transform .2s;
+}
+
+.skill-card i:hover {
+    transform: scale(1.3);
+}
