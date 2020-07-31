@@ -35,6 +35,26 @@
     border: 1px solid #000;
 }
 
+/* Buttons */
+
+.btn-wrapper a {
+    text-decoration: none;
+    color: #000;
+}
+
+.btn-wrapper button {
+    cursor: pointer;
+    outline-color: red;
+}
+
+.btn-wrapper button:active {
+    outline-color: red;
+}
+
+.btn-wrapper button:hover {
+    color: red;
+}
+
 /* background-color */
 .project-background:nth-child(odd) {
     background-color: rgb(241, 241, 243);

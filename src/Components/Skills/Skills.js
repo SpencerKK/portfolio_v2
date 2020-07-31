@@ -1,6 +1,10 @@
 import React from "react";
 import "./Skills.css";
 
+import {
+  animateScroll as scroll,
+} from "react-scroll";
+
 const skillsArr = [
   {
     name: "React / Redux",
@@ -40,6 +44,7 @@ const skillsArr = [
 ];
 
 const Skills = (props) => {
+
   return (
     <div className="skills-container">
       <div className="skills-wrapper">
@@ -55,7 +60,7 @@ const Skills = (props) => {
           </div>
         ))}
       </div>
-      <i  className="fas fa-angle-double-down skills-down-caret"></i>
+      <i onClick={() => scroll.scrollTo(800)} className="fas fa-angle-double-down skills-down-caret"></i>
     </div>
   );
 };
