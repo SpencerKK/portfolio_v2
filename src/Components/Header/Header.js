@@ -10,7 +10,9 @@ const Header = () => {
           <p>Frontend Developer In Los Angeles</p>
         </div>
         <div className="header-right">
-          <i className="fab fa-github"></i>
+          <a href="https://github.com/SpencerKK">
+            <i className="fab fa-github"></i>
+          </a>
         </div>
       </div>
     </div>

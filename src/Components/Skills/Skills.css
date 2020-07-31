@@ -65,6 +65,23 @@
   color: #83cd29;
 }
 
+/* Down Caret */
+.skills-container {
+    text-align: center;
+}
+
+.skills-down-caret {
+   font-size: 1.5em;
+   margin-top: 3vh;
+   cursor: pointer;
+   transition: transform .1s;
+}
+
+.skills-down-caret:hover {
+    color: red;
+    transform: scale(1.2);
+}
+
 
 /* Media Queries */
 

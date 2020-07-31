@@ -25,6 +25,7 @@
     font-size: 1.5em;
     cursor: pointer;
     transition: transform .2s;
+    color: #000;
 }
 
 .fa-github:hover {

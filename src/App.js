@@ -8,6 +8,7 @@ import Skills from "./Components/Skills/Skills";
 import Projects from "./Components/Projects/Projects";
 
 const App = () => {
+
   return (
     <div className="App">
       <Header />

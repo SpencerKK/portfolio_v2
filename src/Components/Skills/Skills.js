@@ -6,46 +6,56 @@ const skillsArr = [
     name: "React / Redux",
     icon: "fab fa-react react-skills",
     focus: "Primary",
-    key: 1
+    link: "https://reactjs.org/",
+    key: 1,
   },
   {
     name: "JavaScript",
     icon: "fab fa-js js-skills",
     focus: "Primary",
-    key: 2
+    link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    key: 2,
   },
   {
     name: "HTML",
     icon: "fab fa-html5",
     focus: "Primary",
-    key: 3
+    link: "https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5",
+    key: 3,
   },
   {
     name: "CSS",
     icon: "fab fa-css3-alt css-skills",
     focus: "Primary",
-    key: 4
+    link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+    key: 4,
   },
   {
     name: "Node.js",
     icon: "fab fa-node-js node-skills",
     focus: "Secondary",
-    key: 5
+    link: "https://nodejs.org/en/",
+    key: 5,
   },
 ];
 
-const Skills = () => {
+const Skills = (props) => {
   return (
-    <div className="skills-wrapper">
-      {skillsArr.map((skill) => (
-        <div className="skill-card" key={skill.key}>
-          <i className={skill.icon}></i>
-          <div className="skill-text">
-            <p id="skill-name">{skill.name}</p>
-            <p id="skill-focus">Focus: {skill.focus}</p>
+    <div className="skills-container">
+      <div className="skills-wrapper">
+        {skillsArr.map((skill) => (
+          <div className="skill-card" key={skill.key}>
+            <a href={skill.link}>
+              <i className={skill.icon}></i>
+            </a>
+            <div className="skill-text">
+              <p id="skill-name">{skill.name}</p>
+              <p id="skill-focus">Focus: {skill.focus}</p>
+            </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
+      <i  className="fas fa-angle-double-down skills-down-caret"></i>
     </div>
   );
 };

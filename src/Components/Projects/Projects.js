@@ -26,7 +26,7 @@ const projectsArray = [
   {
     name: "Ready to Launch",
     detail:
-      "Ready to Launch was a site for Zoe Kenealy, whose 'Ready to Launch' podcast features varied and inspiring people people from all walks of life to get their ideas on life, success & well-being. No frameworks here. Just HTML, CSS & JS.",
+      "Ready to Launch was a site for Zoe Kenealy, whose 'Ready to Launch' podcast features varied and inspiring people from all walks of life to get their ideas on life, success & well-being. No frameworks here. Just HTML, CSS & JS.",
     src: rtlImage,
     alt: "Ready to Launch Website Screenshot",
     key: 3
