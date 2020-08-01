@@ -11,7 +11,7 @@ const Header = () => {
         </div>
         <div className="header-right">
           <a href="https://github.com/SpencerKK">
-            <i className="fab fa-github"></i>
+            <i className="fab fa-github github-header"></i>
           </a>
         </div>
       </div>

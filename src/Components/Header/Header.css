@@ -21,14 +21,14 @@
 
 /* right */
 
-.fa-github {
+.github-header {
     font-size: 1.5em;
     cursor: pointer;
     transition: transform .2s;
     color: #000;
 }
 
-.fa-github:hover {
+.github-header:hover {
     transform: scale(1.5);
     color: red;
 }
@@ -44,7 +44,7 @@
         border-bottom: 1px solid red;
     }
 
-    .fa-github {
+    .github-header {
         display: none;
     }
     

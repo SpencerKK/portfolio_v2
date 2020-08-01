@@ -1,0 +1,13 @@
+.contact-wrapper {
+    font-family: "Roboto";
+    text-align: center;
+    padding: 2em;
+    background: rgba(0, 0, 0, 0.769);
+    color: #fff;
+}
+
+.contact-div i, a {
+    color: #fff;
+    font-size: 1.3em;
+    padding: 1rem;
+}
