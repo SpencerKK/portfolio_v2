@@ -2,12 +2,18 @@
     font-family: "Roboto";
     text-align: center;
     padding: 2em;
-    background: rgba(0, 0, 0, 0.769);
+    background: rgba(0, 0, 0, 0.865);
     color: #fff;
 }
 
 .contact-div i, a {
     color: #fff;
     font-size: 1.3em;
-    padding: 1rem;
+    padding: 0.5rem;
+}
+
+#skk-name {
+    font-weight: 100;
+    font-size: 0.8em;
+    margin-top: 5px;
 }
