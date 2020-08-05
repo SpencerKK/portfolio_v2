@@ -5,6 +5,7 @@ import "./Projects.css";
 import notesImage from "../../img/take-note-screenshot.png";
 import moviesImage from "../../img/spencer-movies-screenshot.png";
 import rtlImage from "../../img/rtl-screencap-laptop.png";
+import weatherImage from '../../img/weather-weekly-screenshot.png';
 
 const projectsArray = [
   {
@@ -37,6 +38,16 @@ const projectsArray = [
     ghLink: "https://github.com/SpencerKK/Ready-to-Launch",
     liveLink: "https://www.readytolaunchpodcasts.com/",
   },
+  {
+    name: "Weather-Weekly",
+    detail:
+      "Obligatory JavaScript weather app uses the OpenWeather API. I mainly just wanted to get away from React and use some vanilla JS, and I hadn't touched the API yet, so I went with it. It is rather simple, but I feel good about the clean, responsive design here.",
+    src: weatherImage,
+    alt: "Weather Application Screenshot",
+    key: 3,
+    ghLink: "https://github.com/SpencerKK/weather-weekly",
+    liveLink: "https://weather-weekly.netlify.app/",
+  }
 ];
 
 const Projects = () => {
