@@ -36,7 +36,7 @@ const projectsArray = [
     alt: "Ready to Launch Website Screenshot",
     key: 3,
     ghLink: "https://github.com/SpencerKK/Ready-to-Launch",
-    liveLink: "https://www.readytolaunchpodcasts.com/",
+    liveLink: "https://eloquent-lamport-cb3751.netlify.app/",
   },
   {
     name: "Weather-Weekly",
