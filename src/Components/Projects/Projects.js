@@ -4,7 +4,7 @@ import "./Projects.css";
 // images
 import notesImage from "../../img/take-note-screenshot.png";
 import moviesImage from "../../img/spencer-movies-screenshot.png";
-import rtlImage from "../../img/rtl-screencap-laptop.png";
+import tmancyImg from "../../img/tmancy-screencap-laptop.png";
 import weatherImage from '../../img/weather-weekly-screenshot.png';
 
 const projectsArray = [
@@ -29,14 +29,14 @@ const projectsArray = [
     liveLink: "https://spencerkk.github.io/spencermovies/#/",
   },
   {
-    name: "Ready to Launch",
+    name: "Technomancy Agency",
     detail:
-      "Ready to Launch was a site for Zoe Kenealy, whose 'Ready to Launch' podcast features varied and inspiring people from all walks of life to get their ideas on life, success & well-being. No frameworks here. Just HTML, CSS & JS.",
-    src: rtlImage,
-    alt: "Ready to Launch Website Screenshot",
+      "Technomancy Agency specializes in Influener Marketing and creates unique experiences for brands and creators of all sizes. I used SASS to create a responsive design pattern throughout the site that feels light and bouncy while maintaining a sense of professionalism.",
+    src: tmancyImg,
+    alt: "Technomancy Agency Website Screenshot",
     key: 3,
-    ghLink: "https://github.com/SpencerKK/Ready-to-Launch",
-    liveLink: "https://eloquent-lamport-cb3751.netlify.app/",
+    ghLink: "https://github.com/SpencerKK/technomancy-agency",
+    liveLink: "https://www.technomancyagency.com/",
   },
   {
     name: "Weather-Weekly",
